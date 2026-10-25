@@ -1,0 +1,2 @@
+symbol,series,ltp,percent_change,price_band_percent,volume_lakhs,dataset,trading_date,category
+DEMO_UPPER,EQ,100,2.5,100,100,upper-band-hitters,2026-01-02,upper

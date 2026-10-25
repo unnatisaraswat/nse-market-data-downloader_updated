@@ -1,0 +1,20 @@
+{
+  "notice": "SYNTHETIC TEST DATA \u2014 NOT NSE MARKET DATA",
+  "trading_date": "2026-01-02",
+  "data": [
+    {
+      "symbol": "DEMO_VOLUME",
+      "ltp": "100",
+      "volume": "100",
+      "week_average_volume": "100",
+      "week_multiple": "100"
+    },
+    {
+      "symbol": "DEMO_VOLUME",
+      "ltp": "100",
+      "volume": "100",
+      "week_average_volume": "100",
+      "week_multiple": "100"
+    }
+  ]
+}

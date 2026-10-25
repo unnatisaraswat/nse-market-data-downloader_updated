@@ -1,0 +1,18 @@
+{
+  "notice": "SYNTHETIC TEST DATA \u2014 NOT NSE MARKET DATA",
+  "trading_date": "2026-01-02",
+  "data": [
+    {
+      "symbol": "DEMO_LOSER",
+      "ltp": "100",
+      "percent_change": "-2.5",
+      "volume": "100"
+    },
+    {
+      "symbol": "DEMO_LOSER",
+      "ltp": "100",
+      "percent_change": "-2.5",
+      "volume": "100"
+    }
+  ]
+}

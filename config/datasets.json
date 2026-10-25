@@ -1,0 +1,148 @@
+{
+  "datasets": {
+    "top-gainers-losers": {
+      "page_url": "https://www.nseindia.com/market-data/top-gainers-losers",
+      "columns": {
+        "symbol": "symbol",
+        "ltp": "ltp",
+        "percent_change": "percent_change",
+        "volume": "volume"
+      },
+      "numeric": [
+        "ltp",
+        "percent_change",
+        "volume"
+      ],
+      "nonnegative": [
+        "ltp",
+        "volume"
+      ],
+      "keys": [
+        "symbol",
+        "category",
+        "trading_date"
+      ],
+      "sources": [
+        {
+          "url": null,
+          "fixture": "../fixtures/top-gainers-losers-gainer.json",
+          "records_path": "data",
+          "date_path": "trading_date",
+          "category": "gainer"
+        },
+        {
+          "url": null,
+          "fixture": "../fixtures/top-gainers-losers-loser.json",
+          "records_path": "data",
+          "date_path": "trading_date",
+          "category": "loser"
+        }
+      ]
+    },
+    "upper-band-hitters": {
+      "page_url": "https://www.nseindia.com/market-data/upper-band-hitters",
+      "columns": {
+        "symbol": "symbol",
+        "series": "series",
+        "ltp": "ltp",
+        "percent_change": "percent_change",
+        "price_band_percent": "price_band_percent",
+        "volume_lakhs": "volume_lakhs"
+      },
+      "numeric": [
+        "ltp",
+        "percent_change",
+        "price_band_percent",
+        "volume_lakhs"
+      ],
+      "nonnegative": [
+        "ltp",
+        "price_band_percent",
+        "volume_lakhs"
+      ],
+      "keys": [
+        "symbol",
+        "series",
+        "category",
+        "trading_date"
+      ],
+      "sources": [
+        {
+          "url": null,
+          "fixture": "../fixtures/upper-band-hitters-upper.json",
+          "records_path": "data",
+          "date_path": "trading_date",
+          "category": "upper"
+        }
+      ]
+    },
+    "volume-gainers-spurts": {
+      "page_url": "https://www.nseindia.com/market-data/volume-gainers-spurts",
+      "columns": {
+        "symbol": "symbol",
+        "ltp": "ltp",
+        "volume": "volume",
+        "week_average_volume": "week_average_volume",
+        "week_multiple": "week_multiple"
+      },
+      "numeric": [
+        "ltp",
+        "volume",
+        "week_average_volume",
+        "week_multiple"
+      ],
+      "nonnegative": [
+        "ltp",
+        "volume",
+        "week_average_volume",
+        "week_multiple"
+      ],
+      "keys": [
+        "symbol",
+        "category",
+        "trading_date"
+      ],
+      "sources": [
+        {
+          "url": null,
+          "fixture": "../fixtures/volume-gainers-spurts-volume.json",
+          "records_path": "data",
+          "date_path": "trading_date",
+          "category": "volume"
+        }
+      ]
+    },
+    "52-week-high-equity-market": {
+      "page_url": "https://www.nseindia.com/market-data/52-week-high-equity-market",
+      "columns": {
+        "symbol": "symbol",
+        "series": "series",
+        "ltp": "ltp",
+        "new_52w_high": "new_52w_high"
+      },
+      "numeric": [
+        "ltp",
+        "new_52w_high"
+      ],
+      "nonnegative": [
+        "ltp",
+        "new_52w_high"
+      ],
+      "keys": [
+        "symbol",
+        "series",
+        "category",
+        "trading_date"
+      ],
+      "sources": [
+        {
+          "url": null,
+          "fixture": "../fixtures/52-week-high-equity-market-high.json",
+          "records_path": "data",
+          "date_path": "trading_date",
+          "category": "high"
+        }
+      ]
+    }
+  }
+}
